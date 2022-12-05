@@ -5,7 +5,7 @@ import mpv
 print('pew')
 
 # оставь для музла этот божественный скрипт
-x = requests.get('https://boards.4channel.org/wsg/thread/4817929')
+x = requests.get('https://boards.4channel.org/wsg/thread/4791588')
 print(x.status_code)
 
 soup = BeautifulSoup(x.content, features="html.parser")
